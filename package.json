@@ -1,0 +1,43 @@
+{
+  "name": "BokisWorkoutLog",
+  "version": "5.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "fs-extra": "^6.0.1",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-native-svg-transformer": "^0.12.1",
+    "react-test-renderer": "16.7.0",
+    "replace-in-file": "^3.4.2"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "rename": "node ./bin/rename.js",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@shoutem/animation": "^0.12.3",
+    "@shoutem/theme": "^0.11.3",
+    "@shoutem/ui": "^0.23.18",
+    "react": "16.6.3",
+    "react-art": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-native": "0.58.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-firebase": "^5.2.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-google-signin": "^1.2.1",
+    "react-native-svg": "^9.3.3",
+    "react-native-vector-icons": "^6.4.1",
+    "react-native-web": "^0.11.0",
+    "react-navigation": "^3.3.2"
+  }
+}

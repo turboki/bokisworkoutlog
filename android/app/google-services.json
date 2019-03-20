@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "598674994854",
+    "firebase_url": "https://bokis-workout-log.firebaseio.com",
+    "project_id": "bokis-workout-log",
+    "storage_bucket": "bokis-workout-log.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598674994854:android:1b0058969a0150e8",
+        "android_client_info": {
+          "package_name": "com.bojanberan.bokisworkoutlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598674994854-mfmr5be96cdirft89g8sv178nukpe5h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0XKECtJhJTm4E1KFmGOcL5zQRYRcyfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
